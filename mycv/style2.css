@@ -174,7 +174,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("img/2.png") no-repeat center right  , #111;
+    background: url("img/.png") no-repeat center right  , #111;/*////////////////////////*/
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -371,9 +371,9 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-/*ihhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+/*color line */
 .skills-content .right .html::before{
-    width: 70%;
+    width: 90%;
 }
 .skills-content .right .css::before{
     width: 50%;
@@ -383,6 +383,9 @@ section .title::after{
 }
 .skills-content .right .php::before{
     width: 100%;
+}
+.skills-content .right .laravel::before{
+    width: 80%;
 }
 .skills-content .right .mysql::before{
     width: 90%;
